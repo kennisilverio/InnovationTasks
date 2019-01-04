@@ -1,0 +1,25 @@
+{
+  "name": "innovationtasks",
+  "version": "1.0.0",
+  "description": "Get and Post requests to API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennisilverio/InnovationTasks.git"
+  },
+  "author": "Kenni Silverio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennisilverio/InnovationTasks/issues"
+  },
+  "homepage": "https://github.com/kennisilverio/InnovationTasks#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
